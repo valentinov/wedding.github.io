@@ -1,0 +1,174 @@
+.background{
+
+/*background-image: url("https://museprintables.com/files/letter-size-borders/png/ivy-border.png");*/
+/*background-image: url("https://w7.pngwing.com/pngs/557/793/png-transparent-wedding-invitation-paper-letter-hand-painted-lace-frame-pink-and-gray-floral-frame-watercolor-painting-frame-flower-arranging.png");*/
+background-image: url("file:///C:/Users/I355877/OneDrive%20-%20SAP%20SE/www/intermediate_css/img/flower.png"),
+ url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f4675673-d30c-4c0b-ac8d-ebcc550595db/d1tvf0h-0a5025de-db57-43fc-aec9-e3251d9d7129.jpg/v1/fill/w_900,h_620,q_75,strp/watercolour_texture_by_summer__moon_d1tvf0h-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NjIwIiwicGF0aCI6IlwvZlwvZjQ2NzU2NzMtZDMwYy00YzBiLWFjOGQtZWJjYzU1MDU5NWRiXC9kMXR2ZjBoLTBhNTAyNWRlLWRiNTctNDNmYy1hZWM5LWUzMjUxZDlkNzEyOS5qcGciLCJ3aWR0aCI6Ijw9OTAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.96FKFAYN2oU4NsrzrTh3ENdr7enNlmVcRV_x5uq-zWI");
+
+background-repeat: no-repeat;
+background-size: 744px,
+1350px;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  [class*="col-"] {
+    float: left;
+    padding: 15px;
+  }
+  
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 49.5%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+
+.main-header{
+    font-family: 'Special Elite', cursive;
+    font-size: 5rem;
+    font-weight: 400;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+    padding-top: 50px;
+}
+
+.margin{
+    margin-right: 5px;
+}
+
+.blue{
+    color: #6b2626;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+   /* margin: 40px 0 0 0;*/
+}
+
+.blue2{
+    color: #6b2626;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    padding-bottom: 50px;
+}
+
+.padding{
+    padding: 20px 15px 20px 15px;
+    min-height: 130vh;
+}
+
+.border{
+    border: 1px solid;
+}
+
+.grey{
+    color: #6b2626;
+}
+
+.font-bigger{
+    font-size: 2.4rem;
+}
+.second-header{
+    font-family: 'Special Elite', cursive;
+    color: #6b2626;
+    font-size: 2.4rem;
+    font-weight: 400;
+    margin: 0 0 10px 0;
+    padding-top: 50px;
+}
+
+h1 {
+    margin-top: 0px;
+
+}
+
+p {
+    margin-top: 0px;
+    color: #6b2626;
+    font-family: 'Special Elite', cursive;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+.p-left{
+    padding-left: 25px;
+}
+
+.date{
+    margin: 40px 0 40px 0;
+}
+
+.outer{
+    height: 1em;
+    margin: 0 1em 0 1em;
+  }
+  
+  .content{
+    border: 6px double #6b2626;
+    border-left: none;
+    border-right: none;
+  }
+  
+  .innerContent{
+    margin: 0 1em 0 1em;
+  }
+  
+  .borderLeftRight{
+    border-left: 6px double #6b2626;
+    border-right: 6px double #6b2626;
+  }
+
+  div.blueTable {
+    text-align: left;
+    border-collapse: collapse;
+    margin-left: 25px;
+  }
+  .divTable.blueTable .divTableCell, .divTable.blueTable .divTableHead {
+    padding: 3px 2px;
+  }
+  .divTable.blueTable .divTableBody .divTableCell {
+    font-size: 1.2rem;
+    font-family: 'Special Elite', cursive;
+    padding-bottom: 20px;
+    vertical-align: middle;
+
+  }
+  .blueTable .tableFootStyle {
+    font-size: 1.2rem;
+  }
+  .blueTable .tableFootStyle .links {
+       text-align: right;
+  }
+  .blueTable .tableFootStyle .links a{
+    display: inline-block;
+    background: #1C6EA4;
+    color: #FFFFFF;
+    padding: 2px 8px;
+    border-radius: 5px;
+  }
+  .blueTable.outerTableFooter {
+    border-top: none;
+  }
+  .blueTable.outerTableFooter .tableFootStyle {
+    padding: 3px 5px; 
+  }
+  .divTable{ display: table; }
+.divTableRow { display: table-row; }
+.divTableHeading { display: table-header-group;}
+.divTableCell, .divTableHead { display: table-cell;}
+.divTableHeading { display: table-header-group;}
+.divTableFoot { display: table-footer-group;}
+.divTableBody { display: table-row-group;}
